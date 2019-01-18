@@ -3,43 +3,46 @@
 
     <head>
         <meta charset="UTF-8" />
-        <title></title>
-        <link rel="stylesheet" href="../css/styles.css?23835759e8173c32564c4578c81fc214" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-            crossorigin="anonymous" />
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-        <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Home </title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" async defer href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+        <link rel="stylesheet" async defer type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" href="js/slider/slick.css"/>
+        <link rel="stylesheet" href="js/slider/slick-theme.css"/>
     </head>
 
     <body>
         <div class="bg-dark">
     <div class="header section">
-        <a class="header__logo" href="/" title="Автосервис"></a>
+        <a class="header__logo" href="index.html" title="Автосервис"></a>
         <p class="header__phone">+375 (29) 896-35-42</p>
     </div>
 </div>
 <header class="menu">
     <div class="section">
         <nav class="car-menu">
-            <input type="checkbox" id="menu" class="toggleMenu menu-checkbox" />
+            <input type="checkbox" id="menu" class="toggleCheckbox menu-checkbox" />
             <label for="menu" class="toggleMenu">
                 <i class="fas fa-bars"></i>Меню
             </label>
             <ul>
                 <li>
-                    <a href="/" class="selected"><i class="fas fa-car"></i>Главная</a>
-                </li>
-                <li class="selected">
-                    <a href="/services"><i class="fas fa-cog"></i>Услуги</a>
+                    <a href="index.html" class=""><i class="fas fa-car"></i>Главная</a>
                 </li>
                 <li class="">
-                    <a href="/price"><i class="fas fa-calculator"></i>Стоимость ремонта</a>
+                    <a href="services.html"><i class="fas fa-cog"></i>Услуги</a>
                 </li>
                 <li class="">
-                    <a href="/advices"><i class="fas fa-ambulance"></i>Советы</a>
+                    <a href="price.html"><i class="fas fa-calculator"></i>Стоимость ремонта</a>
                 </li>
                 <li class="">
-                    <a href="/contact"><i class="fas fa-envelope"></i>Контакты</a>
+                    <a href="advices.html"><i class="fas fa-ambulance"></i>Советы</a>
+                </li>
+                <li class="">
+                    <a href="contact.html"><i class="fas fa-envelope"></i>Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -48,104 +51,105 @@
 
         <div class="content section">
 
-    <h1>
-        <span class="headline--bg">
-            Услуги по ремонту автомобилей <br />
-            Второе и последующие посещения со скидкой до 20%
-        </span>
-    </h1>
-    <h3>Техобслуживание и ремонт на СТО автомобилей.</h3>
-    <p>
-        Предлагаемые СТО автомобилей услуги по ремонту автомобиля начинаются с
-        диагностики всех важных систем: трансмиссии, подвески (рулевые тяги,
-        наконечники, рейка, шаровые опоры, шрусы) и тормозной системы. При
-        обнаружении неисправностей автослесарь СТО составит перечень работ, их
-        последовательность и стоимость.
-    </p>
-    <div>
-        <div class="service-left">
-            <img src="images/to.png" alt="ТО" />
-        </div>
-        <div class="box">
-            <h4>Техническое обслуживание</h4>
-            <ul>
-                <li>Замена масла в двигателе автомобиля</li>
-                <li>Замена тормозной жидкости</li>
-                <li>Замена фильтров</li>
-                <li>Замена масла в АКПП</li>
-                <li>Замена охлаждающей жидкости</li>
-                <li>Замена приводных ремней</li>
-                <li>Обслуживание инжекторов</li>
-                <li>Замена масла в МКПП</li>
-                <li>Замена тормозных колодок</li>
-                <li>Замена ремня ГРМ</li>
-            </ul>
-        </div>
-        <div class="service-right">
-            <img src="../Project/img/repairs-motor.png" alt="Ремонт двигателя" />
-        </div>
-        <div class="box service-right">
-            <h4>Ремонт двигателей</h4>
-            <ul>
-                <li>Ремонт системы охлаждения</li>
-                <li>Ремонт цилиндро - поршневой группы</li>
-                <li>Расточка блока цилиндров двигателя</li>
-                <li>Ремонт топливной системы</li>
-                <li>Ремонт кривошипно - шатунного механизма</li>
-                <li>Хонингование блока цилиндров</li>
-                <li>Ремонт ГБЦ (головки блока цилиндров)</li>
-                <li>Расточка коленчатого вала</li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <div>
-        <div class="service-left">
-            <img src="../Project/img/transmission.png" alt="Ремонт трансмиссии" />
-        </div>
-        <div class="box service-left">
-            <h4>Ремонт трансмиcсии</h4>
-            <ul>
-                <li>Ремонт заднего моста</li>
-                <li>Диагностика и ремонт МКПП, КПП</li>
-                <li>Ремонт коробки вариатор</li>
-                <li>Ремонт раздаточной коробки</li>
-                <li>Замена трансмиссионого масла</li>
-                <li>Замена сцепления</li>
-                <li>Замена и ремонт приводов</li>
-                <li>Ремонт кулисы</li>
-            </ul>
-        </div>
-        <div class="service-right">
-            <img src="../Project/img/suspension.png" alt="Ремонт подвески" />
-        </div>
-        <div class="box service-right">
-            <h4>Ремонт подвески</h4>
-            <ul>
-                <li>Ремонт тормозной системы</li>
-                <li>Ремонт рулевого управления</li>
-                <li>Ремонт рулевой рейки</li>
-                <li>Диагностика и ремонт ABS</li>
-                <li>Ремонт пневмоподвески</li>
-                <li>Замена амортизаторов</li>
-                <li>Ремонт гидроусилителя</li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <h4>
-        Порядок определения
-        <a href="../Project/Price.html" title="Стоимость ремонта">стоимости ремонта автомобиля:</a>
-    </h4>
-    <ul>
-        <li>осмотр автомобиля мастером,</li>
-        <li>определение перечня работ,</li>
-        <li>
-            определение необходимых запчастей для устранения неисправности
-        </li>
-        <li>составление заказ - наряда.</li>
-    </ul>
-    <div class="clearfix"></div>
+<h1>
+    Выполняем
+    <strong>ремонт и техническое обслуживание (ТО)</strong> автомобилей.
+</h1>
+
+<div id="home-slider">
+    <img src="images/slider/1.png" alt="1">
+    <img src="images/slider/2.png" alt="2">
+    <img src="images/slider/3.png" alt="3">
+    <img src="images/slider/4.png" alt="4">
+    <img src="images/slider/5.png" alt="5">
+</div>
+<h4><a href="contact.html" title="Контакты">Автосервис расположен в центре города.</a></h4>
+<p>
+    Каждый клиент СТО может быть уверен, что его автомобилю будет уделено
+    особое внимание и выполнен качественный ремонт.
+</p>
+<p class="conditions">
+    Для обслуживания и ремонта автомобиля у нас есть все необходимые
+    условия:
+</p>
+<ul>
+    <li>современное диагностическое и ремонтное оборудование,</li>
+    <li>опытные мастера,</li>
+    <li>предварительная запись по телефону,</li>
+    <li>
+        доступная
+        <a href="price.html" title="Стоимость ремонта">стоимость ремонта автомобиля</a>.
+    </li>
+</ul>
+<p>
+    СТО автомобилей соответствует этим требованиям, и мы готовы
+    предоставить
+    <a href="services.html" title="Услуги">услуги</a> по
+    техобслуживанию и ремонту.
+</p>
+<ul>
+    <li>
+        У нас Вы можете получить абсолютно бесплатную комплексную
+        диагностику автомобиля, прежде чем мы приступим к ремонту
+    </li>
+    <li>
+        Мы предлагаем огромный комплекс работ от техобслуживания автомобиля
+        до ремонта двигателя;
+    </li>
+    <li>
+        Техническое обслуживание на нашем СТО в Минске выполняется в строгом
+        соответствии регламенту;
+    </li>
+    <li>
+        Вы получите длительную гарантию на выполненную работу и замененные
+        детали;
+    </li>
+    <li>У нас работают только профессиональные опытные мастера;</li>
+    <li>
+        Если Вы ищете качественный и быстрый ремонт автомобиля в Минске
+        &laquo;СТО по ул. Тимирязева 52&raquo; &mdash; лучший выбор!
+    </li>
+</ul>
+<p>
+    Мастера автосервиса постоянно обучаются, повышают квалификацию.
+    Специалисты СТО делают все для того, чтобы каждый клиент остался
+    доволен произведенным ремонтом, дадут рекомендации и
+    <a href="advices.html" title="Советы">советы для автолюбителей</a>
+    по правильной эксплуатации автомобиля.
+</p>
+<p>
+    <img class=" service" src="images/diagnostika-1.png" alt="Диагностика" title="Диагностика" />
+</p>
+<h5>Наш автоцентр предлагает клиентам услуги по ремонту автомобиля:</h5>
+<ul>
+    <li>
+        все виды ремонта и ТО автомобилей;
+        <ul>
+            <li>
+                <a href="services.html" title="Услуги">Техническое обслуживание</a>
+            </li>
+            <li>
+                <a href="services.html" title="Услуги">Ремонт двигателей</a>
+            </li>
+            <li>
+                <a href="services.html" title="Услуги">Ремонт трансмиcсии</a>
+            </li>
+            <li>
+                <a href="services.html" title="Услуги">Ремонт подвески</a>
+            </li>
+        </ul>
+    </li>
+    <li>Мы предлагаем полный комплекс работ профессионального уровня</li>
+</ul>
+<p>
+    Клиенты нашего автосервиса достойны только лучшего и мы готовы
+    предложить:
+</p>
+<ol>
+    <li>Профессиональный ремонт автомобиля;</li>
+    <li>Качественные запчасти для ремонта и ТО;</li>
+    <li>Гарантируем качественное исполнение работ любой сложности.</li>
+</ol>
 
         </div>
 
@@ -161,6 +165,10 @@
         <p>+375 (29) 896-35-42</p>
     </div>
 </div>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/slider/slick.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 
 </html>
